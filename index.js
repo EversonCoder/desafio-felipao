@@ -1,5 +1,7 @@
-const Hero = [["Syaman", 8000]]
-let xp = Hero[0][1]
+const Hero = [["Syaman", 8000]];
+
+let xp = Hero[0][1];
+
 function falaNivel(){
 
     if(xp<=1000){
@@ -27,4 +29,4 @@ function falaNivel(){
         return "Radiante"
     }
 }
-console.log("O Héroi de nome "+ Hero[0][0] + " está no nível de "+ falaNivel())
+console.log("O Herói de nome "+ Hero[0][0] + " está no nível de "+ falaNivel());
